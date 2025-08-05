@@ -1,0 +1,58 @@
+[
+	{
+		"file": "/Users/larrypark/Projects/LastRoyale/LastRoyale/Source/LastRoyale/LMainMenuGameMode.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/larrypark/Projects/LastRoyale/LastRoyale/.vscode/compileCommands_LastRoyale/LastRoyale.1.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.6/Engine/Source"
+	},
+	{
+		"file": "/Users/larrypark/Projects/LastRoyale/LastRoyale/Source/LastRoyale/LMainMenuGameMode.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/larrypark/Projects/LastRoyale/LastRoyale/.vscode/compileCommands_LastRoyale/LastRoyale.1.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.6/Engine/Source"
+	},
+	{
+		"file": "/Users/larrypark/Projects/LastRoyale/LastRoyale/Source/LastRoyale/LMainMenuWidget.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/larrypark/Projects/LastRoyale/LastRoyale/.vscode/compileCommands_LastRoyale/LastRoyale.1.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.6/Engine/Source"
+	},
+	{
+		"file": "/Users/larrypark/Projects/LastRoyale/LastRoyale/Source/LastRoyale/LMainMenuWidget.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/larrypark/Projects/LastRoyale/LastRoyale/.vscode/compileCommands_LastRoyale/LastRoyale.1.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.6/Engine/Source"
+	},
+	{
+		"file": "/Users/larrypark/Projects/LastRoyale/LastRoyale/Source/LastRoyale/LastRoyale.Build.cs",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/larrypark/Projects/LastRoyale/LastRoyale/.vscode/compileCommands_LastRoyale/LastRoyale.1.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.6/Engine/Source"
+	},
+	{
+		"file": "/Users/larrypark/Projects/LastRoyale/LastRoyale/Source/LastRoyale/LastRoyale.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/larrypark/Projects/LastRoyale/LastRoyale/.vscode/compileCommands_LastRoyale/LastRoyale.1.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.6/Engine/Source"
+	},
+	{
+		"file": "/Users/larrypark/Projects/LastRoyale/LastRoyale/Source/LastRoyale/LastRoyale.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/larrypark/Projects/LastRoyale/LastRoyale/.vscode/compileCommands_LastRoyale/LastRoyale.1.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.6/Engine/Source"
+	}
+]
