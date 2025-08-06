@@ -20,7 +20,8 @@ void ULCharacterSelectMenu::NativeOnInitialized()
 
 void ULCharacterSelectMenu::PopulateCharacterGrid()
 {
-    if (!CharacterGridPanel || !CharacterCardWidgetClass) return;
+    if (!CharacterGridPanel || !CharacterCardWidgetClass)
+        return;
 
     CharacterGridPanel->ClearChildren();
     CharacterCardWidgets.Empty();

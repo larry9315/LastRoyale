@@ -5,5 +5,5 @@ UseTab: Never
 PointerAlignment: Left
 SpaceBeforeParens: ControlStatements
 AllowShortFunctionsOnASingleLine: Inline
-BreakBeforeBraces: Attach
+BreakBeforeBraces: Allman
 ColumnLimit: 0

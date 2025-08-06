@@ -17,7 +17,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCardSelected, int32, CardIndex);
 UCLASS()
 class LASTROYALE_API UCharacterCardWidget : public UUserWidget
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
 
 public:
     // Call this to set up the card’s visuals and store the index
@@ -25,7 +25,7 @@ public:
 
     UFUNCTION(BlueprintCallable)
     void SetIsSelected(bool bSelected);
-    
+
     // Bind this delegate from the parent to handle clicks
     UPROPERTY(BlueprintAssignable)
     FOnCardSelected OnCardSelected;
@@ -35,7 +35,7 @@ protected:
 
     UFUNCTION()
     void HandleCardClicked();
-    
+
     UPROPERTY(meta = (BindWidget))
     UButton* SelectButtonBG;
 
@@ -50,5 +50,5 @@ protected:
 
     bool bIsSelected = false;
 
-    
+
 };

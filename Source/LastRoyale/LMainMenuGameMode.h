@@ -13,19 +13,20 @@
  *
  */
 UCLASS()
-class LASTROYALE_API ALMainMenuGameMode : public AGameModeBase {
+class LASTROYALE_API ALMainMenuGameMode : public AGameModeBase
+{
     GENERATED_BODY()
 
-  public:
+public:
     ALMainMenuGameMode();
 
-  protected:
+protected:
     virtual void BeginPlay() override;
 
     UPROPERTY(EditDefaultsOnly, Category = "UI")
     TSubclassOf<UUserWidget> MainMenuWidgetClass;
 
-  private:
+private:
     UPROPERTY()
     UUserWidget* MainMenuInstance;
 };

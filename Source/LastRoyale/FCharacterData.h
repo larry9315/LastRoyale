@@ -4,7 +4,7 @@
 #include "FCharacterData.generated.h"
 
 USTRUCT(BlueprintType)
-struct FCharacterData 
+struct FCharacterData
 {
     GENERATED_BODY()
 

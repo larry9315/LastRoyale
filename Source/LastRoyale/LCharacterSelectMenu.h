@@ -12,16 +12,14 @@
 #include "LCharacterSelectMenu.generated.h"
 
 
-
-
 UCLASS()
 class LASTROYALE_API ULCharacterSelectMenu : public UUserWidget
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
 
 public:
     virtual void NativeOnInitialized() override;
-    
+
 protected:
     // Ready/Unselect buttons (already present)
     UPROPERTY(meta = (BindWidget))

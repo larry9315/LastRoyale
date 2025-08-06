@@ -33,7 +33,8 @@ void ALMainMenuGameMode::BeginPlay()
 
                 TArray<AActor*> Cameras;
                 UGameplayStatics::GetAllActorsOfClass(this, ACameraActor::StaticClass(), Cameras);
-                if (Cameras.Num() > 0) {
+                if (Cameras.Num() > 0)
+                {
                     PC->SetViewTargetWithBlend(Cameras[0]);
                 }
             }
