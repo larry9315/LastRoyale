@@ -20,6 +20,7 @@ void ULMainMenuWidget::NativeOnInitialized()
 
 void ULMainMenuWidget::OnPlayClicked()
 {
+    OnPlayButtonClicked.Broadcast();
     if (CharacterSelectMenuClass)
     {
         UUserWidget* CharacterSelectMenu = CreateWidget<UUserWidget>(GetWorld(), CharacterSelectMenuClass);

@@ -20,13 +20,21 @@ class LASTROYALE_API ALMainMenuGameMode : public AGameModeBase
 public:
     ALMainMenuGameMode();
 
+    UFUNCTION(BlueprintCallable, Category="Events")
+    void DestroyRotatingGun();
 protected:
     virtual void BeginPlay() override;
 
     UPROPERTY(EditDefaultsOnly, Category = "UI")
     TSubclassOf<UUserWidget> MainMenuWidgetClass;
 
+    UPROPERTY(EditDefaultsOnly, Category = "Menu|3D")
+    TSubclassOf<AActor> RotatingGunClass;
+
 private:
     UPROPERTY()
     UUserWidget* MainMenuInstance;
+
+    UPROPERTY()
+    AActor* RotatingGunActor;
 };

@@ -12,6 +12,8 @@
  */
 class UButton;
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnPlayButtonClicked);
+
 UCLASS()
 class LASTROYALE_API ULMainMenuWidget : public UUserWidget
 {
@@ -25,7 +27,7 @@ protected:
 
     UFUNCTION()
     void OnQuitClicked();
-
+    
     UPROPERTY(meta = (BindWidget))
     UButton* PlayButton;
 
@@ -34,4 +36,9 @@ protected:
 
     UPROPERTY(EditDefaultsOnly, Category = "UI")
     TSubclassOf<UUserWidget> CharacterSelectMenuClass;
+
+public:
+
+    UPROPERTY(BlueprintAssignable, Category="Events")
+    FOnPlayButtonClicked OnPlayButtonClicked;
 };
